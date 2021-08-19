@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_work_histories",
+  "info": {
+    "name": "work_history",
+    "icon": "file-code"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "company_url": {
+      "type": "string"
+    },
+    "job_name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "richtext"
+    }
+  }
+}

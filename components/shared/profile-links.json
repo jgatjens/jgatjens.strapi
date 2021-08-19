@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_profile_links",
+  "info": {
+    "name": "Profile Links",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
