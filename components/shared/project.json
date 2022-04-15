@@ -7,16 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "Date": {
+    "date": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     },
     "image": {
@@ -33,6 +33,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "tech": {
+      "type": "richtext"
     }
   }
 }
