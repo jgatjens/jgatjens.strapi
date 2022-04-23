@@ -46,14 +46,6 @@
         }
       },
       "component": "shared.link"
-    },
-    "resume": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
     }
   }
 }

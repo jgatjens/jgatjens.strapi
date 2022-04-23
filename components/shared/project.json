@@ -2,24 +2,25 @@
   "collectionName": "components_shared_projects",
   "info": {
     "name": "Project",
-    "icon": "apple-alt"
+    "icon": "apple-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "Date": {
+    "date": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -29,6 +30,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "tech": {
+      "type": "richtext"
     }
   }
 }
