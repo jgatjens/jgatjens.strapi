@@ -1,3 +1,10 @@
-# Strapi application
+## Getting Started
 
-A quick description of your strapi application
+This project uses:
+
+```bash
+nvm use # change node version
+yarn develop  # runs strapi server
+
+```
+
