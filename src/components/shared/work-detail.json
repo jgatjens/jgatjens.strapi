@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_work_details",
+  "info": {
+    "displayName": "project",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "tech_stack": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

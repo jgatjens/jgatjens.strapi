@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_opengraphs",
+  "info": {
+    "displayName": "open graph",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "username": {
+      "type": "string",
+      "default": "jgatjens"
+    }
+  }
+}

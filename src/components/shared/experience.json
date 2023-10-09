@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_experiences",
+  "info": {
+    "displayName": "job history",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "company_url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ctalink"
+    },
+    "job_name": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
