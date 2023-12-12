@@ -3,7 +3,7 @@ import type { Schema, Attribute } from '@strapi/strapi';
 export interface SharedCtalink extends Schema.Component {
   collectionName: 'components_shared_ctalinks';
   info: {
-    displayName: 'cta link';
+    displayName: 'link_cta';
     icon: 'exit';
     description: '';
   };
@@ -17,7 +17,7 @@ export interface SharedCtalink extends Schema.Component {
 export interface SharedExperience extends Schema.Component {
   collectionName: 'components_shared_experiences';
   info: {
-    displayName: 'job history';
+    displayName: 'job_history';
     icon: 'file';
     description: '';
   };
@@ -33,7 +33,7 @@ export interface SharedExperience extends Schema.Component {
 export interface SharedOpengraph extends Schema.Component {
   collectionName: 'components_shared_opengraphs';
   info: {
-    displayName: 'open graph';
+    displayName: 'open_graph';
     icon: 'apps';
     description: '';
   };
@@ -72,7 +72,7 @@ export interface SharedWorkDetail extends Schema.Component {
     headline: Attribute.String;
     description: Attribute.RichText;
     url: Attribute.String;
-    image: Attribute.Media;
+    media: Attribute.Media & Attribute.Required;
     slug: Attribute.String;
     color: Attribute.String;
     tech_stack: Attribute.RichText;

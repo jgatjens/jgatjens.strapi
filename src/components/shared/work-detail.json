@@ -16,10 +16,10 @@
     "url": {
       "type": "string"
     },
-    "image": {
+    "media": {
       "type": "media",
-      "multiple": true,
-      "required": false,
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",

@@ -24,22 +24,6 @@
         }
       }
     },
-    "url_label": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "tech_label": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "description": {
       "type": "richtext",
       "pluginOptions": {

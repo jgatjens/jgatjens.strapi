@@ -1,31 +1,35 @@
 {
   "name": "backend-jgatjens-v-4-strapi",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
-  },
-  "dependencies": {
-    "@strapi/plugin-graphql": "4.15.0",
-    "@strapi/plugin-i18n": "4.15.0",
-    "@strapi/plugin-users-permissions": "4.15.0",
-    "@strapi/provider-upload-cloudinary": "4.15.0",
-    "@strapi/strapi": "4.15.0",
-    "better-sqlite3": "9.0.0"
-  },
+  "license": "MIT",
   "author": {
     "name": "A Strapi developer"
   },
-  "strapi": {
-    "uuid": "f6b4f598-f62d-41fc-b695-8b553b9930c4"
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.15.5",
+    "@strapi/plugin-i18n": "4.15.5",
+    "@strapi/plugin-users-permissions": "4.15.5",
+    "@strapi/provider-upload-cloudinary": "4.15.5",
+    "@strapi/strapi": "4.15.5",
+    "better-sqlite3": "9.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "f6b4f598-f62d-41fc-b695-8b553b9930c4"
+  }
 }

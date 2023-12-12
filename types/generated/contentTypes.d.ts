@@ -736,58 +736,6 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
   };
 }
 
-export interface ApiNavigationNavigation extends Schema.SingleType {
-  collectionName: 'navigations';
-  info: {
-    singularName: 'navigation';
-    pluralName: 'navigations';
-    displayName: 'navigation';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
-  attributes: {
-    resume: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    work: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::navigation.navigation',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::navigation.navigation',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::navigation.navigation',
-      'oneToMany',
-      'api::navigation.navigation'
-    >;
-    locale: Attribute.String;
-  };
-}
-
 export interface ApiResumeResume extends Schema.SingleType {
   collectionName: 'resumes';
   info: {
@@ -926,18 +874,6 @@ export interface ApiWorkWork extends Schema.SingleType {
           localized: true;
         };
       }>;
-    url_label: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    tech_label: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     description: Attribute.RichText &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -989,7 +925,6 @@ declare module '@strapi/types' {
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
       'api::homepage.homepage': ApiHomepageHomepage;
-      'api::navigation.navigation': ApiNavigationNavigation;
       'api::resume.resume': ApiResumeResume;
       'api::work.work': ApiWorkWork;
     }
