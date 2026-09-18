@@ -10,8 +10,13 @@
     "headline": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
+    "overview": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "url": {
       "type": "string"
@@ -38,6 +43,22 @@
     },
     "date": {
       "type": "string"
+    },
+    "my_role": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "key_points": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

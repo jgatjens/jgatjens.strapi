@@ -70,13 +70,30 @@ export interface SharedWorkDetail extends Schema.Component {
   };
   attributes: {
     headline: Attribute.String;
-    description: Attribute.RichText;
+    overview: Attribute.RichText &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     url: Attribute.String;
     media: Attribute.Media & Attribute.Required;
     slug: Attribute.String;
     color: Attribute.String;
     tech_stack: Attribute.RichText;
     date: Attribute.String;
+    my_role: Attribute.RichText &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    key_points: Attribute.RichText &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
   };
 }
 
