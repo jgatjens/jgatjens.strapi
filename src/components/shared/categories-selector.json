@@ -1,0 +1,43 @@
+{
+    "collectionName": "components_shared_categories_selector",
+    "info": {
+        "displayName": "Categories",
+        "icon": "checkSquare",
+        "description": "Select project categories using checkboxes"
+    },
+    "options": {},
+    "attributes": {
+        "web": {
+            "type": "boolean",
+            "default": false
+        },
+        "mobile": {
+            "type": "boolean",
+            "default": false
+        },
+        "backend": {
+            "type": "boolean",
+            "default": false
+        },
+        "headless_cms": {
+            "type": "boolean",
+            "default": false
+        },
+        "animations": {
+            "type": "boolean",
+            "default": false
+        },
+        "cms": {
+            "type": "boolean",
+            "default": false
+        },
+        "design_systems": {
+            "type": "boolean",
+            "default": false
+        },
+        "ai": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

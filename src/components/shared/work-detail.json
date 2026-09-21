@@ -59,6 +59,11 @@
           "localized": true
         }
       }
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.categories-selector"
     }
   }
 }
